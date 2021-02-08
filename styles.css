@@ -88,4 +88,15 @@ html{
     align-items: center;
     justify-content: center;
     text-shadow: 0 .3rem 0.5rem rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s;
+}
+.days div:hover:not(.today) {
+    background-color:rgb(119, 116, 116);
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+
+.today{
+    background-color:#ad4d2fde;
+    border-radius:50%;
 }
